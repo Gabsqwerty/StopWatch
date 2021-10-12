@@ -1,0 +1,47 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: dodgerblue;
+}
+
+main {
+  background-color: black;
+  height: 250px;
+  padding: 3rem;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 1rem black;
+}
+
+section {
+  padding: 1rem;
+}
+
+.buttonSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: black;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+button:active {
+  background-color: green;
+  color: black;
+}
